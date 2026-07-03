@@ -1,0 +1,6 @@
+{
+  "name": "Escala del Engaño",
+  "description": "Una página interactiva y minimalista para adolescentes sobre el impacto de la inteligencia artificial y los deepfakes en la sociedad contemporánea.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
