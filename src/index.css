@@ -1,0 +1,45 @@
+@import "tailwindcss";
+
+@theme {
+  --font-serif: "Times New Roman", Times, Georgia, serif;
+}
+
+@layer base {
+  body {
+    font-family: "Times New Roman", Times, Georgia, serif;
+    background-color: #1e2c63;
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+  }
+}
+
+/* Custom subtle grid blueprint background */
+.bg-grid-pattern {
+  background-color: #1e2c63;
+  background-image: 
+    linear-gradient(rgba(255, 255, 255, 0.06) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255, 255, 255, 0.06) 1px, transparent 1px);
+  background-size: 40px 40px;
+}
+
+/* Bright text glow for main title and menus */
+.text-glow {
+  text-shadow: 0 0 10px rgba(255, 255, 255, 0.8), 0 0 20px rgba(255, 255, 255, 0.4);
+}
+
+/* Custom glow effect on hover for menu selections */
+.menu-hover-glow:hover {
+  text-shadow: 0 0 15px rgba(255, 255, 255, 0.9), 0 0 30px rgba(255, 255, 255, 0.6);
+  color: #ffffff;
+  transform: scale(1.03);
+}
+
+/* Justified reading content */
+.text-justify {
+  text-align: justify;
+  text-justify: inter-word;
+}
+
